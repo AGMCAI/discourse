@@ -11,7 +11,7 @@
 
 .categories-list {
   .navigation-container {
-    border-bottom: 50;
+    border-bottom: 0;
   }
 }
 
@@ -46,7 +46,7 @@
 .category {
   .custom-category-boxes {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 0 32px 0;
     width: 100%;
     flex-wrap: wrap;
