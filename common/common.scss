@@ -46,7 +46,7 @@
 .category {
   .custom-category-boxes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 0 32px 0;
     width: 100%;
     flex-wrap: wrap;
@@ -86,7 +86,7 @@
 .groups-boxes {
   display: grid;
   gap: 18px;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
   grid-template-columns: 1fr 1fr;
   .group-box {
     background-color: var(--secondary);
